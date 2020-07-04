@@ -8,5 +8,5 @@ import {MatSidenavModule} from '@angular/material/sidenav';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Iteris';
+  title = 'NomeBonito';
 }

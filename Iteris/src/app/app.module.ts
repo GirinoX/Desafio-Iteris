@@ -14,8 +14,12 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+<<<<<<< HEAD
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { LitaservicosComponent } from './litaservicos/litaservicos.component';
+=======
+import {MatCardModule} from '@angular/material/card';
+>>>>>>> 47e481de051ce6ad5b1f1a23e9d423d053d24453
 
 
 @NgModule({
@@ -37,7 +41,11 @@ import { LitaservicosComponent } from './litaservicos/litaservicos.component';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
+<<<<<<< HEAD
     HttpClientModule
+=======
+    MatCardModule
+>>>>>>> 47e481de051ce6ad5b1f1a23e9d423d053d24453
   ],
   providers: [],
   bootstrap: [AppComponent]
