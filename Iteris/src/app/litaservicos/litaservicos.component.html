@@ -1,1 +1,12 @@
-<p>litaservicos works!</p>
+<mat-card class="cardProf">
+  <div id="foto">
+    <img id="photoProf" [src]="photo" />
+  </div>
+  <div id="infoGerais">
+    <label id="txtNome">{{ name }}</label>
+    <label id="txtLocation">{{ location }}</label>
+    <div id="divContato">
+      <button id="btnContato" mat-raised-button></button>
+    </div>
+  </div>
+</mat-card>

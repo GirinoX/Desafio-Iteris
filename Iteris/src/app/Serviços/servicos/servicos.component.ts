@@ -9,10 +9,6 @@ export class ServicosComponent implements OnInit {
 
   @Input() servico: Isolamentomodel;
 
-  location:String;
-  name:String;
-  photo:String;
-  services:String[];
 
   constructor() { }
 
