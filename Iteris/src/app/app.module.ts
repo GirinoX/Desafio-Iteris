@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InicioComponent } from './inicio/inicio/inicio.component';
 import { ServicosComponent } from './serviços/servicos/servicos.component';
 import { DetallhesComponent } from './detallhes/detallhes.component';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DetallhesComponent } from './detallhes/detallhes.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
