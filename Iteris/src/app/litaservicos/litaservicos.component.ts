@@ -10,6 +10,7 @@ export class LitaservicosComponent implements OnChanges {
 
   @Input() servico: Isolamentomodel;
 
+<<<<<<< HEAD
 
   location:String;
   name:String;
@@ -17,6 +18,14 @@ export class LitaservicosComponent implements OnChanges {
   services:String[];
 
   constructor() { }
+=======
+  location: String;
+  name: String;
+  photo: String;
+  services: String[];
+
+  constructor() {}
+>>>>>>> d847bdc4b14fd4f7b0f6e3d6f1a0fcd8550e3ffa
 
   ngOnChanges(): void {
   if (this.servico != null){
