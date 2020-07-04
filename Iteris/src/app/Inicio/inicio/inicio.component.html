@@ -1,14 +1,16 @@
-
-
 <div class="titulo">
- <h1> Bem vindo a aplicação </h1>
+  <h1>Bem vindo a {{title}}</h1>
 </div>
 
-<div class="Resumo">
-  <h1> Encontre o professor online perfeito para te auxiar em sua saude, seja mental ou fisica.  </h1>
- </div>
+<mat-card>
+  <div class="resumo">
+    <label>
+      Encontre o professor online perfeito para te auxiar em sua saude, seja
+      mental ou física.</label
+    >
+  </div>
 
- <div class= "Botão">
-  <button mat-button [routerLink]="['/servicos']" >Começar!</button>
- </div>
-
+  <div class="botao">
+    <button mat-raised-button [routerLink]="['/servicos']">Começar!</button>
+  </div>
+</mat-card>
