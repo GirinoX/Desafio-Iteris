@@ -8,15 +8,15 @@ import { InicioComponent } from './inicio/inicio/inicio.component';
 import { ServicosComponent } from './serviços/servicos/servicos.component';
 import { DetallhesComponent } from './detallhes/detallhes.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
-import { MenuComponent } from './menu/menu/menu.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     InicioComponent,
     ServicosComponent,
-    DetallhesComponent,
-    MenuComponent
+    DetallhesComponent
+
   ],
   imports: [
     BrowserModule,
