@@ -10,10 +10,7 @@ export class ServicosComponent implements OnInit {
 
   listaservicos:Isolamentomodel[];
 
-<<<<<<< HEAD
-=======
    constructor(private isolamentoapi:IsolamentoService) {
->>>>>>> fabeb270c8aab21c2e4dbe107bc0e8ddc8717173
 
     }
 
