@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "Iteris"
+  "defaultProject": "Iteris",
+  "cli": {
+    "analytics": "74d2c5a0-a16e-43e8-983f-da3216f00111"
+  }
 }
