@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Isolamentomodel } from 'src/app/service/servicos/isolamentomodel';
+import {IsolamentoService} from 'src/app/service/servicos/isolamento.service';
 @Component({
   selector: 'app-servicos',
   templateUrl: './servicos.component.html',
@@ -7,16 +8,16 @@ import { Isolamentomodel } from 'src/app/service/servicos/isolamentomodel';
 })
 export class ServicosComponent implements OnInit {
 
-  @Input() servico: Isolamentomodel;
+  listaservicos:Isolamentomodel[];
 
-  location:String;
-  name:String;
-  photo:String;
-  services:String[];
+   constructor(private isolamentoapi:IsolamentoService) {
 
-  constructor() { }
+    }
 
   ngOnInit(): void {
+   this.isolamentoapi.servicais().subscribe((lista)=>{
+     this.listaservicos =lista;
+   })
   }
 
 }
